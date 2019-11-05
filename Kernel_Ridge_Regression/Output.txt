@@ -1,0 +1,79 @@
+Outputs for Logistic Regression
+
+Conclusion: The accuracy comes best for eps=0.01 and eta=0.01. The accuracy is the same for eps=0.0001 and eta=0.0001.
+
+epsilon= 0.01
+eta= 0.01
+The weight vector is:
+
+          0         1         2         3         4         5         6         7         8
+0 -1.917369  5.322158  2.221588  1.075378 -4.572379  2.062273 -0.297344 -1.628486  8.308013
+accuracy =  85.43689320388349 %
+
+-------------------------------
+
+epsilon= 0.0001
+eta= 0.0001
+The weight vector is:
+
+          0         1        2         3         4         5         6         7         8
+0 -1.948805  5.310832  2.21182  1.061486 -4.576458  2.058792 -0.311269 -1.619782  8.302656
+accuracy =  85.43689320388349 %
+
+-------------------------------
+
+epsilon= 0.1
+eta= 0.1
+The weight vector is:
+
+          0         1         2         3         4        5         6         7         8
+0 -2.097792  5.384681  2.354688  1.035522 -4.635566  1.98029 -0.234415 -1.686049  8.362451
+accuracy =  84.46601941747572 %
+
+-------------------------------
+
+epsilon= 0.001
+eta= 0.01
+The weight vector is:
+
+          0         1         2         3        4         5         6         7         8
+0 -5.520625  7.104243  3.932084  2.269616 -3.07864  1.943823  0.924274  0.158352  8.928472
+accuracy =  83.98058252427184 %
+
+----------------------------------------------------------------
+
+Outputs for Kernel Ridge Regression
+
+For  linear kernel
+training accuracy is: 78.51941747572816 %
+testing accuracy is: 83.98058252427184 %
+
+----------------------------------------
+
+For  quadratic kernel, c=1
+training accuracy is: 87.01456310679612 %
+testing accuracy is: 91.74757281553399 %
+
+----------------------------------------
+
+For  gaussian
+spread= 0.5
+training accuracy is: 95.26699029126213 %
+testing accuracy is: 95.14563106796116 %
+
+For  gaussian
+spread= 1
+training accuracy is: 91.74757281553399 %
+testing accuracy is: 95.14563106796116 %
+
+For  gaussian
+spread= 2
+training accuracy is: 86.16504854368931 %
+testing accuracy is: 89.80582524271846 %
+
+For  gaussian
+spread= 5
+training accuracy is: 81.18932038834951 %
+testing accuracy is: 85.43689320388349 %
+
+Conclusion: For gaussian kernel the testing accuracy is best for spread=0.5 and spread=1. The training accuracy is however better in case of spread=0.5
