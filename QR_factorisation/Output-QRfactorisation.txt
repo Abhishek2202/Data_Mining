@@ -1,0 +1,239 @@
+
+Conclusion: (I) The most important variable in the dataset is the "TEMP" variable because it has the highest absolute weight for different values of ridge constant.
+	    (II) The best ridge constant is around the value "0.01". The value of Rsquare remains constant when the value of alpha is less than 0.01. The value of Rsquare decreases after the value of 	         ridge constant goes over 0.01. This helps me conclude that the best value of ridge constant is "0.01"			
+
+------------------------------------------------------------
+
+Output 
+
+For the training dataset 
+Entered Value of ridge constant is: 0.0001
+
+The weight vector w using ridge regression is:
+[[-10.76228524]
+ [  0.5556211 ]
+ [  0.08753639]
+ [  0.08417397]
+ [  0.01795404]
+ [  0.069334  ]
+ [ -1.45422483]
+ [  0.01452766]
+ [  1.3447612 ]
+ [ -0.62744731]
+ [  0.96483139]
+ [ -0.07334584]]
+
+L2 norm of weight vector:
+11.018562004767329
+
+The Value of SSE for the training dataset is:
+43046259.981604815
+
+The Value of R Square for the training dataset is:
+0.8338311355346597
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287647.61287876
+
+The value of R Square for testing data is:
+
+0.8202703337307653
+
+------------------------------------------------------------
+
+Output
+
+For the training dataset 
+Entered Value of ridge constant is: 0.001
+
+The weight vector w using ridge regression is:
+[[-10.7629729 ]
+ [  0.55562109]
+ [  0.08753646]
+ [  0.08417412]
+ [  0.01795404]
+ [  0.06933399]
+ [ -1.45422471]
+ [  0.01452831]
+ [  1.34476173]
+ [ -0.62743719]
+ [  0.96483909]
+ [ -0.07334574]]
+
+L2 norm of weight vector:
+11.01923382291917
+
+The Value of SSE for the training dataset is:
+43046259.52876465
+
+The Value of R Square for the training dataset is:
+0.8338311372827311
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287645.8651162
+
+The value of R Square for testing data is:
+
+0.8202703411590523
+
+------------------------------------------------------------
+
+Output:
+
+For the training dataset 
+Entered Value of ridge constant is: 0.01
+
+The weight vector w using ridge regression is:
+[[-10.76514764]
+ [  0.55562104]
+ [  0.08753667]
+ [  0.08417459]
+ [  0.01795404]
+ [  0.06933397]
+ [ -1.45422429]
+ [  0.01453038]
+ [  1.34476339]
+ [ -0.62740496]
+ [  0.96486319]
+ [ -0.07334542]]
+
+L2 norm of weight vector:
+11.021358422769566
+
+The Value of SSE for the training dataset is:
+43046258.13085725
+
+The Value of R Square for the training dataset is:
+0.8338311426789881
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287640.33494165
+
+The value of R Square for testing data is:
+
+0.820270364663231
+
+------------------------------------------------------------
+
+Output
+
+For the training dataset 
+Entered Value of ridge constant is: 0.1
+
+The weight vector w using ridge regression is:
+[[-10.77202635]
+ [  0.55562092]
+ [  0.08753732]
+ [  0.08417603]
+ [  0.01795403]
+ [  0.06933388]
+ [ -1.45422261]
+ [  0.01453694]
+ [  1.34476829]
+ [ -0.62730083]
+ [  0.96493693]
+ [ -0.07334443]]
+
+L2 norm of weight vector:
+11.028078238403374
+
+The Value of SSE for the training dataset is:
+43046254.05127651
+
+The Value of R Square for the training dataset is:
+0.8338311584271461
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287622.814374715
+
+The value of R Square for testing data is:
+
+0.8202704391286086
+
+------------------------------------------------------------
+
+Output:
+
+For file: train.csv
+Entered Value of ridge constant is: 1
+
+The weight vector w using ridge regression is:
+[[-10.79379444]
+ [  0.55562059]
+ [  0.08753924]
+ [  0.08418034]
+ [  0.01795402]
+ [  0.06933351]
+ [ -1.45421356]
+ [  0.01455769]
+ [  1.34478045]
+ [ -0.62694944]
+ [  0.96514546]
+ [ -0.07334142]]
+
+L2 norm of weight vector:
+11.04934049508788
+
+The Value of SSE for the training dataset is:
+43046244.56040898
+
+The Value of R Square for the training dataset is:
+0.8338311950641658
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287567.084110945
+
+The value of R Square for testing data is:
+
+0.8202706759916709
+
+------------------------------------------------------------
+
+Output:
+
+For file: train.csv
+Entered Value of ridge constant is: 10
+
+The weight vector w using ridge regression is:
+[[-10.86278542]
+ [  0.55562005]
+ [  0.0875438 ]
+ [  0.08419121]
+ [  0.01795404]
+ [  0.06933161]
+ [ -1.45414769]
+ [  0.01462358]
+ [  1.34478556]
+ [ -0.62561771]
+ [  0.96555835]
+ [ -0.07333335]]
+
+L2 norm of weight vector:
+11.116698599376857
+
+The Value of SSE for the training dataset is:
+43046248.6419137
+
+The Value of R Square for the training dataset is:
+0.833831179308581
+
+Testing our model on the testing dataset
+
+The value of SSE for testing data is::
+42287387.6295846
+
+The value of R Square for testing data is:
+
+0.820271438703809
+
+------------------------------------------------------------
